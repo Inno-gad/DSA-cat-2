@@ -27,3 +27,24 @@ for(int i= o ;i<n; i++) { } here the loop runs n times hence time complexity is 
 The Big O focuses on the worst case scenario for example ;
 
 in a linear search of an array with n elements , the worst case happens when the desired element is at the very end or  not found , hence making the time complexity O(n).
+Innocent Gad-183419
+
+Question 2
+
+Difference between arrays and linked list in terms of;
+
+1.Memory allocation
+Arrays - for arrays they use contiguous memory allocations that is the whole array is stored in a contiguous block of memory.
+
+Linked list - they use dynamic memory allocation . Each node can be stored anywhere in the memory and each node contains a reference to the next node .
+
+2. Performance
+
+Arrays- For arrays accessing elements is easier and faster this is because you can directly access an index in constant time . However performing instructions such as deleting and inserting can be quite slow this is because of shifting the elements .
+
+Linked list - In linked list accessing elements is quite slower ,this is because you have traverse the list from the head node to the element you want.
+
+3.Insertion and Deletion operations
+Arrays - performing the insertion and the deletion operation in arrays can be slow and inefficient.
+
+Linked list - While performing these operations in the linked list is efficient.
